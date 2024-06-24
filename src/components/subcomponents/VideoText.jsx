@@ -1,21 +1,19 @@
-import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
 const VideoText = () => {
   return (
-    <div class="relative w-full h-auto">
+    <div className="relative w-full h-auto">
       <video
-        class="relative w-full z-10 h-[90vh] object-cover brightness-50"
-        autoplay
+        className="relative w-full z-10 h-[90vh] object-cover brightness-50"
         autoPlay
         muted
         loop
         src={"src\\assets\\videos\\video1.mp4"}
       />
-      <div class="absolute w-full h-full top-0 left-0 bg-gray-900 opacity-60 z-20"></div>
-      <div class="absolute w-full h-full flex items-center justify-center md:space-x-[400px]  p-8 top-0 left-0 z-30">
-        <div className="flex flex-col space-y-32 items-start ">
-          <div className="font-bold text-white text-4xl space-y-4">
+      <div className="absolute top-0 left-0 z-20 w-full h-full bg-gray-900 opacity-60"></div>
+      <div className="absolute w-full h-full flex items-center justify-center md:space-x-[100px]  p-8 top-0 left-0 z-30">
+        <div className="flex flex-col items-start space-y-32 ">
+          <div className="space-y-4 text-4xl font-bold text-white">
             <h1>Delivering Comprehensive</h1>
             <h1 className="pb-9">Solutions for the</h1>
             <TypeAnimation
@@ -41,7 +39,7 @@ const VideoText = () => {
           </button>
         </div>
         <img
-          className="hover:scale-110 w-[200px] md:w-auto transition-all ease-in duration-300"
+          className="hover:scale-110 w-[100px] md:w-auto transition-all ease-in duration-300"
           src="src\assets\images\AI LOGO.png"
           alt=""
         />

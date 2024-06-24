@@ -5,3 +5,35 @@
 body {
     font-family: 'Poppins';font-size: 22px;
 }
+.slick-slide {
+  transition: transform 0.5s ease;
+  opacity: 0.6;
+  padding: 0 15px; /* Add padding between slides */
+}
+
+.slick-center {
+  opacity: 1;
+}
+
+.slick-center .testimonial-card {
+  transform: scale(1.1); /* Scale the center slide */
+  z-index: 10;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.slick-list {
+  margin: 0 -15px; /* Adjust margins to offset padding */
+}
+
+.testimonial-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.testimonial-card img {
+  margin-bottom: 10px;
+}
+
+  
